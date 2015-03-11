@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>How to calculate ANOVA in Excel 2013 &#8211; Sky High</title>
+<meta name="description" content="A demonstration of applying ANOVA in Excel 2013">
+<meta name="keywords" content="Excel, ANOVA">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="How to calculate ANOVA in Excel 2013">
+<meta name="twitter:description" content="A demonstration of applying ANOVA in Excel 2013">
+<meta name="twitter:site" content="@poojakinonwal">
+<meta name="twitter:creator" content="@poojakinonwal">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/site-logo.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to calculate ANOVA in Excel 2013">
+<meta property="og:description" content="A demonstration of applying ANOVA in Excel 2013">
+<meta property="og:url" content="http://localhost:4000/blog/How-to-calculate-ANOVA-in-Excel-2013/">
+<meta property="og:site_name" content="Sky High">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/How-to-calculate-ANOVA-in-Excel-2013/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Sky High Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="http://localhost:4000/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://localhost:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		        
+		    
+		    <li><a href="http://localhost:4000/about/" >About</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://localhost:4000/articles/" >Articles</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://localhost:4000/blog/" >Blog</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="http://localhost:4000/search/" >Search</a></li>
+		  
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<header class="masthead">
+	<div class="wrap">
+      
+  		<a href="http://localhost:4000/" class="site-logo" rel="home" title="Sky High"><img src="http://localhost:4000/images/site-logo.png" width="200" height="200" alt="Sky High logo" class="animated fadeInDown"></a>
+      
+      <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">Sky High</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">I am an Assistant Professor from last four years.I like to write blog on HRM, Statistics and Finance.My hobbies are cooking, puzzle solving, and writing</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"><a href="http://localhost:4000/tags/#Excel" title="Pages tagged Excel">Excel</a>&nbsp;&bull;&nbsp;<a href="http://localhost:4000/tags/#ANOVA" title="Pages tagged ANOVA">ANOVA</a></span>
+        
+          <h1 class="entry-title">How to calculate ANOVA in Excel 2013</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+        
+          <img src="http://localhost:4000/images/bio-photo.jpg" class="bio-photo" alt="Ms. Pooja Kinonwal bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Ms. Pooja Kinonwal</span></span>
+        <span class="entry-date date published"><time datetime="2015-03-12T01:09:55+05:30"><i class="fa fa-calendar-o"></i> March 12, 2015</time></span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <p>ANOVA is a hypothesis testing technique. It determines equality between two or more population mean .It determines that difference between samples are by chance or due to systematic treatment effect. We can calculate ANOVA in Excel. We can Understand how to calculate by following example.</p>
+
+<p>Example: A Dietician testing weight loss techniques. He have three options</p>
+
+<ol>
+  <li>Diet</li>
+  <li>Exercise and</li>
+  <li>Diet and Exercise both </li>
+</ol>
+
+<p>He takes 27 peoples and divide into three groups.  9 undergo in diet program 9 in Exercise and another 9 in diet and exercise both. Written below is the weight loss per kg achieved using different methods.</p>
+
+<pre><code>![Weight loss Chart](/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-1.png)
+</code></pre>
+
+<p>First we set up a hypothesis
+H0: μ1 = μ2 = μ3
+H1: at least one of the means is different.</p>
+
+<p>To perform single factor ANOVA, execute following steps.
+1. Click on Data Menu, on top right-click on Data Analysis. If you don’t find Data Analysis Option <a href="https://statistics4beginners.wordpress.com/2015/02/18/how-to-enable-data-analysis-option-in-excel-2013/">click here</a> to see how to enable Data Analysis Option.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/articles/author-override/" class="btn" title="Override Author Byline Test Post">Previous</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2015 Ms. Pooja Kinonwal.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/poojakinonwal" title="Ms. Pooja Kinonwal on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	<a href="http://facebook.com/pooja.kinonwal" title="Ms. Pooja Kinonwal on Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+	<a href="http://plus.google.com/+pooja.rds" title="Ms. Pooja Kinonwal on Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+	<a href="http://linkedin.com/in/poojakinonwal" title="Ms. Pooja Kinonwal on LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+	
+	
+	
+	<a href="http://github.com/poojakinonia" title="Ms. Pooja Kinonwal on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	<a href="http://poojakinonwal.tumblr.com" title="Ms. Pooja Kinonwal on Tumblr" target="_blank"><i class="fa fa-tumblr-square fa-2x"></i></a>
+	
+  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script type="text/javascript">
+  var BASE_URL = 'http://localhost:4000';
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://localhost:4000/assets/js/scripts.min.js"></script>
+
+
+
+
+</body>
+</html>
