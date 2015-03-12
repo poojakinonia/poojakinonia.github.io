@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-03-12T17:49:37+05:30</updated>
+<updated>2015-03-12T21:30:20+05:30</updated>
 <id>/</id>
 <author>
   <name>Ms. Pooja Kinonwal</name>
@@ -27,43 +27,46 @@
     <email>pooja.rds@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;ANOVA is a hypothesis testing technique. It determines equality between two or more population mean .It determines that difference between samples are by chance or due to systematic treatment effect. We can calculate ANOVA in Excel. We can Understand how to calculate by following example.&lt;/p&gt;
+    &lt;h3 id=&quot;if-you-dont-find-data-analysis-option-then-follow-this-procedure&quot;&gt;If you don’t find Data analysis Option then follow this procedure&lt;/h3&gt;
 
-&lt;p&gt;Example: A Dietician testing weight loss techniques. He have three options&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Diet&lt;/li&gt;
-  &lt;li&gt;Exercise and&lt;/li&gt;
-  &lt;li&gt;Diet and Exercise both &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;He takes 27 peoples and divide into three groups.9 undergo in diet program 9 in Exercise and another 9 in diet and exercise both. Written below is the weight loss per kg achieved using different methods.&lt;/p&gt;
+&lt;p&gt;1.Click on File option&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-1.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Weights of the subjects&lt;/figcaption&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;First we set up a hypothesis&lt;/p&gt;
+&lt;p&gt;2.click on Option&lt;/p&gt;
 
-&lt;p&gt;H0: μ1 = μ2 = μ3&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis0.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;H1: at least one of the means is different.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis0A.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
 
-&lt;p&gt;To perform single factor ANOVA, execute following steps.&lt;/p&gt;
+&lt;p&gt;3.Click on Add-Ins&lt;/p&gt;
 
-&lt;p&gt;1.Click on Data Menu, on top right-click on Data Analysis. If you don’t find Data Analysis Option &lt;a href=&quot;https://statistics4beginners.wordpress.com/2015/02/18/how-to-enable-data-analysis-option-in-excel-2013/&quot;&gt;click here&lt;/a&gt; to see how to enable Data Analysis Option.&lt;/p&gt;
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis0B.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;and click on Go&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis1.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;4.Click on Analysis tool pack and then OK&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/how to enable data analysis2.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;5.Now again click on Data option and you can see Data analysis option in top right side.&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-2.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Enable Data Analysis Option&lt;/figcaption&gt;
 &lt;/figure&gt;
-
-&lt;p&gt;2.Select ANOVA: single factor and click OK&lt;/p&gt;
-&lt;figure&gt;
-	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-3.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
 
     &lt;p&gt;&lt;a href=&quot;/blog/how-to-enable-data-option-in-excel-2013/&quot;&gt;How to enable data analysis option in excel 2013&lt;/a&gt; was originally published by Ms. Pooja Kinonwal at &lt;a href=&quot;&quot;&gt;Sky High&lt;/a&gt; on March 12, 2015.&lt;/p&gt;
   </content>
@@ -121,6 +124,23 @@
 	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-3.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
+&lt;p&gt;3.Click in the input range box and select range A2 to C10&lt;/p&gt;
+
+&lt;p&gt;4.Click in the output range and select E1 Cell&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-5.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;5.Click ok &lt;/p&gt;
+
+&lt;p&gt;Result&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a&gt;&lt;img src=&quot;/images/2014-08-08-How-to-calculate-ANOVA-in-Excel-2013-6.png&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Conclusion: if F &amp;gt; F crit, we reject the null hypothesis. This is the case, 23.65517 &amp;gt; 3.402826. Therefore, we reject the null hypothesis. The means of the three populations are not all equal. At least one of the means is different. However, the ANOVA does not tell you where the difference lies. You need a t-Test to test each pair of mean&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/How-to-calculate-ANOVA-in-Excel-2013/&quot;&gt;How to calculate ANOVA in Excel 2013&lt;/a&gt; was originally published by Ms. Pooja Kinonwal at &lt;a href=&quot;&quot;&gt;Sky High&lt;/a&gt; on March 12, 2015.&lt;/p&gt;
   </content>
