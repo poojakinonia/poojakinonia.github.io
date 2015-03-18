@@ -2,6 +2,38 @@
 
   
     {
+      "title"			: "Chatpati gajar",
+      "link"			: "/recipes/chatpati-gajar-recipe/",
+      "excerpt"		: "Recipe of Carrot"
+    }
+  
+
+  
+    ,{
+      "title"			: "Potato Peas Cutlets",
+      "link"			: "/recipes/potato-peas-cutlets-recipe/",
+      "excerpt"		: "Tasty cutlets"
+    }
+  
+
+  
+    ,{
+      "title"			: "Healthy Delicious Oats",
+      "link"			: "/recipes/my-first-recepi/",
+      "excerpt"		: "Recipe for making delicious oats"
+    }
+  
+
+  
+    ,{
+      "title"			: "Delicious Kathal",
+      "link"			: "/recipes/Kathal-recipe/",
+      "excerpt"		: "Recipe of Jackfruit"
+    }
+  
+
+  
+    ,{
       "title"			: "How to enable data analysis option in excel 2013",
       "link"			: "/blog/how-to-enable-data-option-in-excel-2013/",
       "excerpt"		: "Step by step screen shots"
@@ -21,6 +53,22 @@
       "title"			: "Override Author Byline Test Post",
       "link"			: "/articles/author-override/",
       "excerpt"		: "An article to test overriding the default site author."
+    }
+  
+
+  
+    ,{
+      "title"			: "Override Author Byline Test Post",
+      "link"			: "/stats/author-override/",
+      "excerpt"		: "An article to test overriding the default site author."
+    }
+  
+
+  
+    ,{
+      "title"			: "Syntax Highlighting Post",
+      "link"			: "/stats/code-highlighting-post/",
+      "excerpt"		: "Demo post displaying the various ways of highlighting code in Markdown."
     }
   
 
@@ -91,11 +139,7 @@
   
 
   
-    ,{
-      "title"			: "About the Jekyll Theme",
-      "link"			: "/about/",
-      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
-    }
+
   
 
   
@@ -107,6 +151,14 @@
       "title"			: "Theme Setup",
       "link"			: "/theme-setup/",
       "excerpt"		: "Instructions on how to install and customize the Jekyll theme So Simple."
+    }
+  
+
+  
+    ,{
+      "title"			: "About the Jekyll Theme",
+      "link"			: "/about/",
+      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
     }
   
 
