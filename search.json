@@ -2,6 +2,15 @@
 
   
     {
+      "title"			: "Statistical Analysis",
+      "link"			: "/Statistical-analysis/",
+      "excerpt"		: "
+"
+    }
+  
+
+  
+    ,{
       "title"			: "Chatpati gajar",
       "link"			: "/recipes/chatpati-gajar-recipe/",
       "excerpt"		: "Recipe of Carrot"
@@ -35,7 +44,7 @@
   
     ,{
       "title"			: "How to enable data analysis option in excel 2013",
-      "link"			: "/blog/how-to-enable-data-option-in-excel-2013/",
+      "link"			: "/stats/how-to-enable-data-option-in-excel-2013/",
       "excerpt"		: "Step by step screen shots"
     }
   
@@ -43,7 +52,7 @@
   
     ,{
       "title"			: "How to calculate ANOVA in Excel 2013",
-      "link"			: "/blog/How-to-calculate-ANOVA-in-Excel-2013/",
+      "link"			: "/stats/How-to-calculate-ANOVA-in-Excel-2013/",
       "excerpt"		: "A demonstration of applying ANOVA in Excel 2013"
     }
   
@@ -67,7 +76,7 @@
   
     ,{
       "title"			: "Syntax Highlighting Post",
-      "link"			: "/stats/code-highlighting-post/",
+      "link"			: "/articles/code-highlighting-post/",
       "excerpt"		: "Demo post displaying the various ways of highlighting code in Markdown."
     }
   
@@ -75,7 +84,7 @@
   
     ,{
       "title"			: "Syntax Highlighting Post",
-      "link"			: "/articles/code-highlighting-post/",
+      "link"			: "/stats/code-highlighting-post/",
       "excerpt"		: "Demo post displaying the various ways of highlighting code in Markdown."
     }
   
@@ -156,9 +165,9 @@
 
   
     ,{
-      "title"			: "About the Jekyll Theme",
+      "title"			: "About Me",
       "link"			: "/about/",
-      "excerpt"		: "So Simple is a responsive Jekyll theme for your words and images."
+      "excerpt"		: ""
     }
   
 

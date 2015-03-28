@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/Statistical-analysis/</loc>
+    <lastmod>2015-03-28T00:00:00+05:30</lastmod>
+  </url>
+  <url>
     <loc>/recipes/chatpati-gajar-recipe/</loc>
     <lastmod>2015-03-17T15:39:55+05:30</lastmod>
   </url>
@@ -17,11 +21,11 @@
     <lastmod>2015-03-14T15:39:55+05:30</lastmod>
   </url>
   <url>
-    <loc>/blog/how-to-enable-data-option-in-excel-2013/</loc>
+    <loc>/stats/how-to-enable-data-option-in-excel-2013/</loc>
     <lastmod>2015-03-12T15:39:55+05:30</lastmod>
   </url>
   <url>
-    <loc>/blog/How-to-calculate-ANOVA-in-Excel-2013/</loc>
+    <loc>/stats/How-to-calculate-ANOVA-in-Excel-2013/</loc>
     <lastmod>2015-03-12T01:09:55+05:30</lastmod>
   </url>
   <url>
@@ -33,11 +37,11 @@
     <lastmod>2014-06-19T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>/stats/code-highlighting-post/</loc>
+    <loc>/articles/code-highlighting-post/</loc>
     <lastmod>2013-08-16T00:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>/articles/code-highlighting-post/</loc>
+    <loc>/stats/code-highlighting-post/</loc>
     <lastmod>2013-08-16T00:00:00+05:30</lastmod>
   </url>
   <url>
@@ -66,34 +70,34 @@
   </url>
   <url>
     <loc>/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/articles/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/blog/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/recipes/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/stats/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/theme-setup/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
   <url>
     <loc>/about/</loc>
-    <lastmod>2015-03-18T16:19:52+05:30</lastmod>
+    <lastmod>2015-03-28T12:40:44+05:30</lastmod>
   </url>
 </urlset>
